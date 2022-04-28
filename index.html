@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Vertical slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="slider-container">
+      <section class="left-slide">
+        <div class="item" style="background-color: #ffd700">
+          <h1>Bananas</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime debitis ab tempora quibusdam vel! Quasi totam nesciunt, excepturi animi vero molestias, nobis esse aliquam mollitia nam repellat iste aut odit?
+          </p>
+        </div>
+        <div class="item" style="background-color: #ff0000">
+          <h1>Strawberries</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas recusandae, tempora et ex architecto nulla accusantium tenetur nihil explicabo numquam qui ullam, minima aliquid dolorum ipsa itaque vitae maxime autem.
+          </p>
+        </div>
+        <div class="item" style="background-color: #2c5a24">
+          <h1>Limes</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolore nobis libero nisi non, animi voluptatum magni debitis provident nulla impedit assumenda blanditiis doloremque ex, in voluptas explicabo. Voluptatibus, libero?
+          </p>
+        </div>
+        <div class="item" style="background-color: #eb6c17">
+          <h1>Tangerines</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam eaque, impedit obcaecati assumenda necessitatibus vero earum harum eveniet quo quasi soluta aut iusto, molestias error porro. Repellendus quia accusantium dolor.
+          </p>
+        </div>
+        <div class="item" style="background-color: #58368f">
+          <h1>Blueberry</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum ab voluptate nam commodi explicabo, qui quod corrupti error autem ipsum eius eveniet eum exercitationem aspernatur quibusdam dolores repudiandae cupiditate temporibus?
+          </p>
+        </div>
+      </section>
+      <div class="right-slide">
+        <div
+          class="active"
+          style="background-image: url('assets/img/Blueberry.jpg')"
+        ></div>
+        <div style="background-image: url('assets/img/Tangerines.jpg')"></div>
+        <div style="background-image: url('assets/img/Limes.jpg')"></div>
+        <div style="background-image: url('assets/img/Strawberries.jpg')"></div>
+        <div style="background-image: url('assets/img/Bananas.jpg')"></div>
+      </div>
+
+      <div class="action-buttons">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
